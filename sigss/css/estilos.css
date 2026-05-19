@@ -1,0 +1,102 @@
+body{
+    background:#f4f6f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Sidebar */
+
+.sidebar{
+    width:250px;
+    height:100vh;
+    position:fixed;
+    background:#5c1028;
+    color:white;
+    padding:20px;
+}
+
+.sidebar h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.sidebar a{
+    color:white;
+    text-decoration:none;
+    display:block;
+    padding:12px;
+    border-radius:5px;
+    margin-bottom:5px;
+}
+
+.sidebar a:hover{
+    background:#7a1838;
+}
+
+/* Contenido */
+
+.content{
+    margin-left:270px;
+    padding:30px;
+}
+
+/* Header */
+
+.header{
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0px 2px 10px rgba(0,0,0,0.1);
+    margin-bottom:30px;
+}
+
+/* Cards */
+
+.card-dashboard{
+    border:none;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.card-dashboard:hover{
+    transform:translateY(-5px);
+}
+
+.card-dashboard h3{
+    font-size:22px;
+    font-weight:bold;
+}
+
+.card-dashboard p{
+    color:gray;
+}
+
+/* Tabla */
+
+.table{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+/* Botones */
+
+.btn-primary{
+    background:#1d3f77;
+    border:none;
+}
+
+.btn-success{
+    background:#198754;
+}
+
+.btn-warning{
+    color:white;
+}
+
+/* Footer */
+
+.footer{
+    margin-top:40px;
+    text-align:center;
+    color:gray;
+}
